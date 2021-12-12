@@ -1,0 +1,47 @@
+/* Add your own styles here. Use of this file should be minimized at all costs. However, if you feel the need to
+    declare your own CSS classes for a small padding fix or whatnot, this is the purpose of this file. You may be
+    tempted to go all out with the styling of your website. We encourage you not to spend the time styling the pages
+    for this class, and to spend that time on styling of your own personal webpage or side project.
+ */
+ .vertical-right {
+    height: 100%;
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+    padding: 0;
+}
+
+.vertical-left {
+    height: 100%;
+    display: flex;
+    align-items: left;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.no-padding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.vertical-padding {
+    padding-top: 5px !important;
+    padding-bottom: 3px !important;
+}
+
+.left-padding {
+    padding-left: 3px !important;
+}
+
+.right-padding {
+    padding-right: 3px !important;
+}
+
+.set-textbox-size {
+    max-width: 300px;
+    min-width: 140px;
+}
+
+.small-font {
+    font-size: 14px;
+}
